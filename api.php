@@ -1,6 +1,6 @@
 <?php
 
-class sms77_API {
+class seven_API {
     public $api_key;
     public $error;
     public $rid = 0;
@@ -49,7 +49,7 @@ class sms77_API {
     }
 
     private function curl_use($endpoint, $post_data = []) {
-        $ch = curl_init('https://gateway.sms77.io/api/' . $endpoint);
+        $ch = curl_init('https://gateway.seven.io/api/' . $endpoint);
 
         $options = [
             CURLOPT_HEADER => 0,

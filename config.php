@@ -4,8 +4,8 @@ return [
     'meta'                 => [
         'international' => true,
         'logo'          => 'logo.png',
-        'name'          => 'sms77',
-        'poweredby'     => 'sms77',
+        'name'          => 'seven',
+        'poweredby'     => 'seven',
         'version'       => '1.0',
     ],
     'origin'               => '',
